@@ -67,7 +67,9 @@
  * @return {ListNode}
  */
 var mergeTwoLists = function(list1, list2) {
-    
+    const mergedArray = [...listOne, ...listTwo]
+    return 
+    (mergedArray.sort(function(a, b){return a - b}))
 };
 // @lc code=end
 
